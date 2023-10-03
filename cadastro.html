@@ -7,7 +7,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(77, 155, 77);
+            background-color: rgb(105, 118, 105);
         }
         .box{
             position: absolute;
@@ -74,30 +74,32 @@
                     <input type="text" name="telefone" id="telefone" class="inputUser"required>
                     <label for="telefone">Telefone</label>
                 </div>
-                <p>Sexo:</p>
-                <input type="radio" id="feminino" nome ="genero" value="feminino" required>
+                <title>Formulário</title>
+                 <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
                 <label for="feminino">Feminino</label>
-                <input type="radio" id="maculino" nome ="genero" value="masculino" required>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
                 <label for="masculino">Masculino</label>
-                <input type="radio" id="outro" nome ="genero" value="outro" required>
+                <input type="radio" id="outro" name="genero" value="outro" required>
                 <label for="outro">Outro</label>
+
                 <p>Quantos Filhos:</p>
-                <input type="radio" id="nenhum" nome ="nenhum" value="nenhum" required>
+                <input type="radio" id="nenhum" name="quantidade_filhos" value="nenhum" required>
                 <label for="nenhum">Nenhum</label>
-                <input type="radio" id="de_1_a_3_filhos" nome ="de_1_a_3_filhos" value="de_1_a_3_filhos" required>
+                <input type="radio" id="de_1_a_3_filhos" name="quantidade_filhos" value="de_1_a_3_filhos" required>
                 <label for="de_1_a_3_filhos">De 1 a 3:</label>
-                <input type="radio" id="de_3_a_5_filhos" nome ="de_3_a_5_filhos" value="de_3_a_5_filhos" required>
-                <label for="de_3_a_5_filhos">De 3 a 5 fihos</label>
-                <input type="radio" id="mais_de_5_filhos" nome ="mais_de_5_filhos" value="mais_de_5_filhos" required>
+                <input type="radio" id="de_3_a_5_filhos" name="quantidade_filhos" value="de_3_a_5_filhos" required>
+                <label for="de_3_a_5_filhos">De 3 a 5 filhos</label>
+                <input type="radio" id="mais_de_5_filhos" name="quantidade_filhos" value="mais_de_5_filhos" required>
                 <label for="mais_de_5_filhos">Mais de 5 filhos</label>
+
                 <p>Renda Familiar:</p>
-                <input type="radio" id="de_1_a_3_salarios" nome ="de_1_a_3_salarios" value="de_1_a_3_salarios" required>
+                <input type="radio" id="de_1_a_3_salarios" name="renda_familiar" value="de_1_a_3_salarios" required>
                 <label for="de_1_a_3_salarios">De 1 a 3 salarios</label>
-                <input type="radio" id="de_3_a_5_salarios" nome ="de_3_a_5_salarios" value="de_3_a_5_salarios" required>
-                <label for="de_3_a_5_salarios">De 3 a 5 salarios:</label>
-                <input type="radio" id="mais_de_5_salarios" nome ="mais_de_5_salarios" value="mais_de_5_salarios" required>
+                <input type="radio" id="de_3_a_5_salarios" name="renda_familiar" value="de_3_a_5_salarios" required>
+                <label for="de_3_a_5_salarios">De 3 a 5 salarios</label>
+                <input type="radio" id="mais_de_5_salarios" name="renda_familiar" value="mais_de_5_salarios" required>
                 <label for="mais_de_5_salarios">Mais de 5 salarios</label>
-                <br>
                 <hr>
                 <label for="data_nascimento"><b>Data de Nascimento</b></label>
                 <input type="date" name="data_nascimento" id="data_nascimento" riquired>
