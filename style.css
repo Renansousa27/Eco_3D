@@ -1,0 +1,103 @@
+/* Estilos para o projeto ECO 3D */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color:rgb(216, 237, 216);
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 1;
+}
+
+h1 {background-color: rgb(58, 114, 58);
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: #333;
+}
+
+hr {
+    border: 2px solid #ccc;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+a {
+    color: #00aaff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong {
+    font-weight: bold;
+}
+
+abbr {
+    text-decoration: none;
+    border-bottom: 1px dotted #000;
+}
+
+ins {
+    text-decoration: none;
+    background-color: #f0f8ff;
+}
+
+mark {
+    background-color: aquamarine;
+    padding: 0.2em;
+}
+
+/* Estilos para as tags de busca */
+strong ins a {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #00aaff;
+}
+
+/* Estilos para links externos */
+a[rel="external"]::after {
+    content: " (externo)";
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+/* Estilos para a imagem do logo */
+img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    min-width: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-button {
+    margin-top: 10px;
+}
